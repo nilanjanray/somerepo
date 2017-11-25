@@ -1,0 +1,19 @@
+{
+    "name": "nilanjan/drush",
+    "description": "Sample project",
+    "repositories": [{
+    "type": "package",
+    "package": {
+        "name": "drush/drush",
+        "version": "8.1.11",
+        "source": {
+            "url": "https://github.com/drush-ops/drush.git",
+            "type": "git",
+            "reference": "070ea5cb78ea81abf83ee7a37b995e8de577fbde"
+        }
+      }
+    }],
+    "require": {
+        "drush/drush": "^8.1"
+    }
+}
